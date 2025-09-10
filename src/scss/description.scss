@@ -21,12 +21,13 @@
     }
 
     &::after {
+        content: '';
         position: absolute;
         max-width: 1094px;
         width: 100%;
         height: 1462px;
-        right: -16%;
-        top: 6%;
+        right: -20%;
+        bottom: 20%;
         background-image: url('../img/description/botom.png');
         background-repeat: no-repeat;
         background-size: cover;
@@ -370,7 +371,7 @@
             }
 
             &__itmes {
-                gap: 20px 40px;
+                gap: 20px 20px;
                 width: 100%;
             }
 

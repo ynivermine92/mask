@@ -33,6 +33,10 @@ body {
     }
 }
 
+main {
+    overflow: hidden;
+}
+
 // Animations
 // Fade
 @keyframes fade {
@@ -43,4 +47,11 @@ body {
     100% {
         opacity: 1;
     }
+}
+
+h4 {
+    font-size: clamp(28px, 5.7vw, 48px);
+    @extend %ru-700;
+    line-height: 1.04em;
+    color: rgba(12, 18, 45, 1);
 }
