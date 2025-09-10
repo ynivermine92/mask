@@ -5,9 +5,13 @@
 @import './fonts';
 // Sections or Pages SCSS-files imports
 @import './header';
+
 @import './home';
 
-@import './protective';
+//page
+@import './information';
+@import './description';
+
 
 // @import './footer';
 
